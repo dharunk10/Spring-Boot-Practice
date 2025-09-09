@@ -1,0 +1,6 @@
+
+Summary
+An IoT-based intelligent traffic management system to prioritize ambulances during emergencies. It uses LoRa communication, GPS tracking, and automated traffic signals to clear routes for emergency vehicles in real-time. The system dynamically adjusts traffic lights to green for ambulances while stopping other vehicles, reducing delays. Additionally, it includes audio-visual alert systems to enhance public awareness and ensure smoother emergency transit.
+
+Carrer objective
+Aspiring software engineer with a strong foundation in programming concepts, software development principles, and problem-solving techniques. Eager to contribute to a dynamic team by applying software engineering practices in the design, development, and maintenance of innovative solutions.
