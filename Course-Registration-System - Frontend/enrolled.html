@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="myscript.js"></script>
+    <style>
+            td{
+                background-color: aliceblue;
+            }
+    
+            body{
+                padding: 50px;
+            }
+        </style>
+</head>
+<body>
+    
+
+    <table align="center" border="1"  style="background-color: black;">
+        <tr align="center" style="background-color: lightblue;">
+            <th width = "100">name</th>
+            <th width = "150">emailId</th>
+            <th width = "150">courseName</th>
+        </tr>
+
+        <tbody id="enrolledmem" align="center"></tbody>
+    </table>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            showEnrolledmem();
+        }
+    </script>
+</body>
+</html>

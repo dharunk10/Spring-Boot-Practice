@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+            body {
+                background-color: black;
+                text-align: center; 
+            }
+
+            form {
+                margin:  auto;
+                padding: 20px;
+                width: 400px; 
+                background-color: #fff;
+            }
+
+            input, select, button {
+                width: 90%;
+                padding: 10px;
+                margin: 10px;
+            }
+
+            button {
+                background-color: #4CAF50;
+                color: white; 
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer; 
+            }
+
+            button:hover {
+                background-color: #104212; 
+            }
+        
+        </style>
+</head>
+<body>
+    <h1 style="color: aliceblue;">Register Here</h1>
+    <form action="http://localhost:8080/course/register" method="POST">
+        <label for="name">Enter Your name</label><br>
+        <input type="text" name="name" placeholder="Enter your name" ><br><br>
+        <label for="emailId">Enter Your EmailID</label><br>
+        <input type="email" name="emailId" placeholder="Enter your email" ><br><br>
+        <label for="course">Select Your Course</label><br>
+        <select name="courseName">
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="javascript">JavaScript</option>
+            <option value="csharp">C#</option>
+            <option value="cpp">C++</option>
+            <option value="ruby">Ruby</option>
+            <option value="php">PHP</option>
+            <option value="swift">Swift</option>
+            <option value="go">Go</option>
+            <option value="kotlin">Kotlin</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
